@@ -1,6 +1,10 @@
-def unsafe?(speed)
+require 'pry' 
 
-end
+def unsafe?(speed)
+if speed > 60 || speed < 40
+  returns true 
+  end
+end 
 
 
 
